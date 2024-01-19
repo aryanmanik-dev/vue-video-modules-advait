@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-12 mt-4 px-5">
-    <div class="row" style="height: 70vh;min-height: auto;">
+    <div class="row">
       <div class="col-md-3">
         <h5>FAQs</h5>
 
@@ -14,11 +14,11 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button"
+                class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls="collapseOne"
               >
                 कोई भी वीडियो श्रृंखला आचार्य प्रशांत के यूट्यूब वीडियो से कैसे
@@ -27,18 +27,19 @@
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              class="accordion-collapse collapse"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
                 वीडियो श्रृंखला के सभी वीडियो-सत्र सिर्फ़ इस प्लेटफार्म पर
-                उपलब्ध हैं। (कुछ वीडियो के कुछ हिस्से किन्हीं सोशल मीडिया
+                उपलब्ध हैं। कुछ वीडियो के कुछ हिस्से किन्हीं सोशल मीडिया
                 प्लेटफॉर्म पर उपलब्ध हो सकते हैं। हालाँकि, इनकी संरचना, परीक्षण
                 और प्रक्रियाओं के साथ पूरा पाठ्यक्रम इस प्लेटफॉर्म के अलावा कहीं
-                और उपलब्ध नहीं है।)
+                और उपलब्ध नहीं है।
               </div>
             </div>
           </div>
+
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
